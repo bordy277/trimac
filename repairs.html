@@ -32,7 +32,108 @@
 					</h1>
 				</div>
 				<div class="content">
-					<h2>Please fill-out the following fields:</h2>
+
+					<form name="contactform" method="post" action="send_form_email.php">
+					<table width="250px">
+					<tr>
+					 <td valign="top">
+					  <label for="name"></label>
+					 </td>
+					 <p>
+					 	Full Name
+					 </p>
+					 <td valign="top">
+					  <input  type="text" name="name" maxlength="50" size="30" placeholder="Jon Doe">
+					 </td>
+					</tr>
+					<tr>
+					 <td valign="top">
+					  <label for="phone"></label>
+					 </td>
+					 <td valign="top">
+					 	<p>
+					 	Phone Number
+						</p>
+					  <input  type="text" name="phone" maxlength="50" size="30" placeholder="000-000-0000">
+					 </td>
+					</tr>
+					
+					<tr>
+					 <td valign="top">
+					  <label for="email"></label>
+					 </td>
+					 <td valign="top">
+					 <p>
+					 	Email
+					 </p>
+					  <input  type="text" name="email" maxlength="80" size="30" placeholder="jondoe@gmail.com">
+					 </td>
+					</tr>
+					
+					
+					<tr>
+					 <td valign="top">
+					  <label for="address"></label>
+					 </td>
+					 <td valign="top">
+					 <p>
+					 	What is your Address &#38; Unit &#35;?
+					 </p>
+					  <input  type="text" name="address" maxlength="30" size="30" placeholder="Address,Street,City,Unit #">
+					 </td>
+					</tr>
+
+					<tr>
+					 <td valign="top">
+					  <label for="problem"></label>
+					 </td>
+					 <td valign="top">
+					 <p>
+					 	What Happens to be the Problem?
+					 </p>
+					  <input  type="text" name="problem" maxlength="30" size="30" placeholder="Description">
+					 </td>
+					</tr>
+					
+					<tr>
+					 <td valign="top">
+					  <label for="urgency"></label>
+					 </td>
+					 <td valign="top">
+					 <p>
+					 	Is the urgency high, medium, or low?
+					 </p>
+					  <input  type="text" name="urgency" maxlength="30" size="30" placeholder="Level">
+					 </td>
+					</tr>
+					<div value="tenants"></div>
+					<div value="college"></div>
+
+
+					<tr>
+					 <td colspan="2" style="text-align:center">
+					  <input type="submit" value="Submit" class="button" >
+					  </input>
+					 </td>
+					</tr>
+					</table>
+					</form>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<!-- <h2>Please fill-out the following fields:</h2>
 					<p>Full Name</p>
 					<input class="text-input" placeholder="First, Last" />
 					<p>Phone Number</p>
@@ -46,9 +147,9 @@
 					<p>Urgency High, Medium, or Low?</p>
 					<input class="text-input" placeholder="High,Medium,Low" />
 					<!-- <a href="application.html" target="_blank"> -->
-						<button class="button">
+						<!-- <button class="button">
 							Submit
-						</button>
+						</button> -->
 					<!-- </a> -->
 					<div class="space">
 					</div>

@@ -10,6 +10,7 @@ $(document).ready(function(){
 		$('.investors').hide();
 		$('.current').hide();
 		$('.future').hide();
+		$('.content').show();
 
 
 	});
@@ -25,6 +26,7 @@ $(document).ready(function(){
 		$('.investors').hide();
 		$('.current').hide();
 		$('.future').hide();
+		$('.content').show();
 
 
 	});
@@ -39,6 +41,7 @@ $(document).ready(function(){
 		$('.investors').hide();
 		$('.current').hide();
 		$('.future').hide();
+		$('.content').show();
 
 
 	});
@@ -52,6 +55,7 @@ $(document).ready(function(){
 		$('.investors').hide();
 		$('.current').hide();
 		$('.future').hide();
+		$('.content').hide();
 
 
 	});
@@ -65,6 +69,7 @@ $(document).ready(function(){
 		$('.investors').fadeIn(1000);
 		$('.current').hide();
 		$('.future').hide();
+		$('.content').show();
 
 	});
 
